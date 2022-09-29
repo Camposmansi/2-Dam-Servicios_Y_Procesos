@@ -1,0 +1,341 @@
+Index: src/Ejercicio1_3/LlamaSumando.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejercicio1_3/LlamaSumando.java b/src/Ejercicio1_3/LlamaSumando.java
+new file mode 100644
+--- /dev/null	(date 1664465352557)
++++ b/src/Ejercicio1_3/LlamaSumando.java	(date 1664465352557)
+@@ -0,0 +1,34 @@
++package Ejercicio1_3;
++
++import java.io.*;
++
++public class LlamaSumando {
++    public static void main(String[] args) throws IOException{
++        // File miDir= new File(".");
++        // System.out.println("mi directorio es "+miDir.getCanonicalPath());
++        int valor;
++        File dir= new File(".\\src\\Ejercicio1_3");
++
++        ProcessBuilder pb = new ProcessBuilder("java","Sumando.java","5","4");
++        pb.directory(dir);
++        System.out.printf("Directorio de trabajo: %s%n",pb.directory());
++        Process p= pb.start();
++
++        try {
++            InputStream is = p.getInputStream();
++            int c;
++            while ((c = is.read()) != -1)
++                System.out.print((char) c);
++            is.close();
++        } catch (Exception e) {
++            e.printStackTrace();
++        }
++
++        try{
++            valor= p.waitFor();
++            System.out.println("Valor de salida "+valor);
++        } catch (Exception e) {
++            throw new RuntimeException(e);
++        }
++    }
++}
+Index: salida.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+diff --git a/salida.txt b/salida.txt
+--- a/salida.txt	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/salida.txt	(date 1664462005538)
+@@ -1,0 +1,17 @@
++ El volumen de la unidad C no tiene etiqueta.
++ El n£mero de serie del volumen es: BAE9-0997
++
++ Directorio de C:\Users\Usuario\IdeaProjects\Servicios Y Procesos
++
++29/09/2022  16:33    <DIR>          .
++29/09/2022  16:33    <DIR>          ..
++22/09/2022  20:56               368 .gitignore
++29/09/2022  16:33    <DIR>          .idea
++29/09/2022  16:33                 0 error.txt
++22/09/2022  21:07            35.149 LICENSE
++22/09/2022  17:23    <DIR>          out
++29/09/2022  16:33                 0 salida.txt
++22/09/2022  16:30               433 Servicios Y Procesos.iml
++29/09/2022  16:31    <DIR>          src
++               5 archivos         35.950 bytes
++               5 dirs  12.745.519.104 bytes libres
+Index: src/Ejemplos/EjemploLectura.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.BufferedReader;\r\nimport java.io.InputStreamReader;\r\n\r\npublic class EjemploLectura {\r\n\tpublic static void main(String[] args) {\r\n\t\tInputStreamReader in = new InputStreamReader(System.in);\r\n\t\tBufferedReader br = new BufferedReader(in);\r\n\t\tString texto;\r\n\t\ttry {\r\n\t\t\tSystem.out.println(\"Introduce una cadena....\");\r\n\t\t\ttexto = br.readLine();\r\n\t\t\tSystem.out.println(\"Cadena escrita: \" + texto);\r\n\t\t\tin.close();\r\n\t\t} catch (Exception e) {\r\n\t\t\te.printStackTrace();\r\n\t\t}\r\n\t}\r\n}//EjemploLectura\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/EjemploLectura.java b/src/Ejemplos/EjemploLectura.java
+--- a/src/Ejemplos/EjemploLectura.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/EjemploLectura.java	(date 1664462793075)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.BufferedReader;
+ import java.io.InputStreamReader;
+ 
+@@ -15,4 +17,4 @@
+ 			e.printStackTrace();
+ 		}
+ 	}
+-}//EjemploLectura
++}//Ejemplos.EjemploLectura
+Index: src/Ejemplos/Ejemplo2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.IOException;\r\nimport java.io.InputStream;\r\n\r\npublic class Ejemplo2 {\r\n\tpublic static void main(String[] args) throws IOException {\r\n\r\n\t\tProcess p = new ProcessBuilder(\"CMD\", \"/C\", \"DIR\").start();\r\n\t\ttry {\r\n\r\n\t\t\tInputStream is = p.getInputStream();\r\n\r\n\t\t\t// mostramos en pantalla caracter a caracter\r\n\t\t\tint c;\r\n\t\t\twhile ((c = is.read()) != -1)\r\n\t\t\t\tSystem.out.print((char) c);\r\n\t\t\tis.close();\r\n\r\n\r\n\t\t} catch (Exception e) {\r\n\t\t\te.printStackTrace();\r\n\t\t}\r\n\r\n\t\t// COMPROBACION DE ERROR - 0 bien - 1 mal\r\n\t\tint exitVal;\r\n\t\ttry {\r\n\t\t\texitVal = p.waitFor();\r\n\t\t\tSystem.out.println(\"Valor de Salida: \" + exitVal);\r\n\t\t} catch (InterruptedException e) {\r\n\t\t\te.printStackTrace();\r\n\t\t}\r\n\t}\r\n}// Ejemplo2\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/Ejemplo2.java b/src/Ejemplos/Ejemplo2.java
+--- a/src/Ejemplos/Ejemplo2.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/Ejemplo2.java	(date 1664462793059)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.IOException;
+ import java.io.InputStream;
+ 
+@@ -29,4 +31,4 @@
+ 			e.printStackTrace();
+ 		}
+ 	}
+-}// Ejemplo2
++}// Ejemplos.Ejemplo2
+Index: src/Ejemplos/Ejemplo3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.*;\r\n\r\npublic class Ejemplo3 {\r\n    public static void main(String[] args) throws IOException {\r\n\r\n        File miDir = new File(\".\");\r\n        System.out.println(\"Directorio actual: \" + miDir.getCanonicalPath());\r\n\r\n        //creamos objeto File al directorio donde esta Ejemplo2\r\n        File directorio = new File(\".\\\\bin\");\r\n\r\n        //El proceso a ejecutar es Ejemplo2\r\n        ProcessBuilder pb = new ProcessBuilder(\"java\", \"test2b.Ejemplo2\");\r\n\r\n        //se establece el directorio donde se encuentra el ejecutable\r\n        pb.directory(directorio);\r\n\r\n        System.out.printf(\"Directorio de trabajo: %s%n\", pb.directory());\r\n\r\n        //se ejecuta el proceso\r\n        Process p = pb.start();\r\n\r\n        //obtener la salida devuelta por el proceso\r\n        try {\r\n            InputStream is = p.getInputStream();\r\n            int c;\r\n            while ((c = is.read()) != -1)\r\n                System.out.print((char) c);\r\n            is.close();\r\n        } catch (Exception e) {\r\n            e.printStackTrace();\r\n        }\r\n\r\n        try {\r\n            InputStream er = p.getErrorStream();\r\n            BufferedReader brer = new BufferedReader(new InputStreamReader(er));\r\n            String liner = null;\r\n            while ((liner = brer.readLine()) != null) System.out.println(\"Error >\" + liner);\r\n        } catch (IOException ioe) {\r\n            ioe.printStackTrace();\r\n        }\r\n\r\n    }\r\n}// Ejemplo3
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/Ejemplo3.java b/src/Ejemplos/Ejemplo3.java
+--- a/src/Ejemplos/Ejemplo3.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/Ejemplo3.java	(date 1664462793075)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.*;
+ 
+ public class Ejemplo3 {
+@@ -6,11 +8,11 @@
+         File miDir = new File(".");
+         System.out.println("Directorio actual: " + miDir.getCanonicalPath());
+ 
+-        //creamos objeto File al directorio donde esta Ejemplo2
++        //creamos objeto File al directorio donde esta Ejemplos.Ejemplo2
+         File directorio = new File(".\\bin");
+ 
+-        //El proceso a ejecutar es Ejemplo2
+-        ProcessBuilder pb = new ProcessBuilder("java", "test2b.Ejemplo2");
++        //El proceso a ejecutar es Ejemplos.Ejemplo2
++        ProcessBuilder pb = new ProcessBuilder("java", "test2b.Ejemplos.Ejemplo2");
+ 
+         //se establece el directorio donde se encuentra el ejecutable
+         pb.directory(directorio);
+@@ -41,4 +43,4 @@
+         }
+ 
+     }
+-}// Ejemplo3
+\ No newline at end of file
++}// Ejemplos.Ejemplo3
+\ No newline at end of file
+Index: src/Ejemplos/Ejemplo9.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.IOException;\r\n\r\npublic class Ejemplo9 {\r\n\tpublic static void main(String[] args) throws IOException {\r\n\t\tProcessBuilder pb = new ProcessBuilder(\"CMD\", \"/C\", \"DIR\");\r\n\r\n\t\t//la salida a consola\r\n\t\tpb.redirectOutput(ProcessBuilder.Redirect.INHERIT);\r\n\t\tProcess p = pb.start();\r\n\r\n\t}\r\n}// Ejemplo9\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/Ejemplo9.java b/src/Ejemplos/Ejemplo9.java
+--- a/src/Ejemplos/Ejemplo9.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/Ejemplo9.java	(date 1664462793106)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.IOException;
+ 
+ public class Ejemplo9 {
+@@ -9,4 +11,4 @@
+ 		Process p = pb.start();
+ 
+ 	}
+-}// Ejemplo9
++}// Ejemplos.Ejemplo9
+Index: src/Sumando.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Sumando.java b/src/Ejercicio1_3/Sumando.java
+rename from src/Sumando.java
+rename to src/Ejercicio1_3/Sumando.java
+--- a/src/Sumando.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejercicio1_3/Sumando.java	(date 1664464942678)
+@@ -1,16 +1,24 @@
++package Ejercicio1_3;
++
++import static java.lang.Integer.parseInt;
+ public class Sumando {
+-    public static void main(String[] args)  {
+-
++    public static void main(String[] args) {
+         if (args.length==1 || args.length==0) {
++            System.err.println("FALTAN PARAMETROS");
+             System.exit(-1);
+         }
+         else {
+-            int numero1 = Integer.parseInt(args[0]);
+-            int numero2 = Integer.parseInt(args[1]);
++            try {
++                int a=parseInt(args[0]);
++                int b=parseInt(args[1]);
++                int suma=a+b;
++                System.out.println("La suma de los numeros  "+a +" y "+ b +" es "+suma);
++                System.exit(1);
++            } catch (IllegalArgumentException n) {
++                System.err.println("PARAMETROS INCORRECTOS");
++                System.exit(-1);
+ 
+-            int resultado = numero1 + numero2;
+-            System.out.println("La suma es " + numero1 + " + " + numero2 + " = " + resultado);
+-            System.exit(0);
++            }
+         }
+     }
+ }
+Index: src/Ejemplos/Ejemplo1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.IOException;\r\n\r\npublic class Ejemplo1 {\r\n    public static void main(String[] args) throws IOException {\r\n        ProcessBuilder pb = new ProcessBuilder(\"NOTEPAD\");\r\n        Process p = pb.start();\r\n\r\n    }\r\n}//Ejemplo1\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/Ejemplo1.java b/src/Ejemplos/Ejemplo1.java
+--- a/src/Ejemplos/Ejemplo1.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/Ejemplo1.java	(date 1664462793075)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.IOException;
+ 
+ public class Ejemplo1 {
+@@ -6,5 +8,5 @@
+         Process p = pb.start();
+ 
+     }
+-}//Ejemplo1
++}//Ejemplos.Ejemplo1
+ 
+Index: src/Ejemplos/Ejemplo8.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.File;\r\nimport java.io.IOException;\r\n\r\npublic class Ejemplo8 {\r\n  public static void main(String[] args) throws IOException {\r\n    ProcessBuilder pb = new ProcessBuilder(\"CMD\");\r\n\r\n    File fBat = new File(\"fichero.bat\");\r\n    File fOut = new File(\"salida.txt\");\r\n    File fErr = new File(\"error.txt\");\r\n\r\n    pb.redirectInput(fBat);\r\n    pb.redirectOutput(fOut);\r\n    pb.redirectError(fErr);\r\n    pb.start();\r\n\r\n  }\r\n}// Ejemplo8\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/Ejemplo8.java b/src/Ejemplos/Ejemplo8.java
+--- a/src/Ejemplos/Ejemplo8.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/Ejemplo8.java	(date 1664462793106)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.File;
+ import java.io.IOException;
+ 
+@@ -15,4 +17,4 @@
+     pb.start();
+ 
+   }
+-}// Ejemplo8
++}// Ejemplos.Ejemplo8
+Index: src/Ejemplos/Ejemplo4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.IOException;\r\nimport java.io.InputStream;\r\nimport java.io.OutputStream;\r\n\r\npublic class Ejemplo4 {\r\n    public static void main(String[] args) throws IOException {\r\n        Process p = new ProcessBuilder(\"CMD\", \"/C\", \"DATE\").start();\r\n\r\n        // escritura -- envia entrada a DATE\r\n        OutputStream os = p.getOutputStream();\r\n        os.write(\"01-12-17\".getBytes());\r\n        os.flush(); // vac�a el buffer de salida\r\n\r\n        // lectura -- obtiene la salida de DATE\r\n        InputStream is = p.getInputStream();\r\n        int c;\r\n        while ((c = is.read()) != -1)\r\n            System.out.print((char) c);\r\n        is.close();\r\n\r\n        // COMPROBACION DE ERROR - 0 bien - 1 mal\r\n        int exitVal;\r\n        try {\r\n            exitVal = p.waitFor();\r\n            System.out.println(\"Valor de Salida: \" + exitVal);\r\n        } catch (InterruptedException e) {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n\r\n}//Ejemplo4
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/Ejemplo4.java b/src/Ejemplos/Ejemplo4.java
+--- a/src/Ejemplos/Ejemplo4.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/Ejemplo4.java	(date 1664462793059)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.IOException;
+ import java.io.InputStream;
+ import java.io.OutputStream;
+@@ -28,4 +30,4 @@
+         }
+     }
+ 
+-}//Ejemplo4
+\ No newline at end of file
++}//Ejemplos.Ejemplo4
+\ No newline at end of file
+Index: src/Ejemplos/Ejemplo7.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.File;\r\nimport java.io.IOException;\r\n\r\npublic class Ejemplo7 {\r\n  public static void main(String[] args) throws IOException {\r\n    ProcessBuilder pb = new ProcessBuilder(\"CMD\", \"/C\", \"DIR\");\r\n\r\n    File fOut = new File(\"salida.txt\");\r\n    File fErr = new File(\"error.txt\");\r\n\r\n    pb.redirectOutput(fOut);\r\n    pb.redirectError(fErr);\r\n    pb.start();\r\n  }\r\n}// Ejemplo7\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/Ejemplo7.java b/src/Ejemplos/Ejemplo7.java
+--- a/src/Ejemplos/Ejemplo7.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/Ejemplo7.java	(date 1664462793090)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.File;
+ import java.io.IOException;
+ 
+@@ -12,4 +14,4 @@
+     pb.redirectError(fErr);
+     pb.start();
+   }
+-}// Ejemplo7
++}// Ejemplos.Ejemplo7
+Index: src/Ejemplos/Ejemplo5.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.io.*;\r\n\r\npublic class Ejemplo5 {\r\n\r\n    public static void main(String[] args) throws IOException {\r\n\r\n        File directorio = new File(\".\\\\Ejemplos creación de procesos en java-20220915\\\\out\\\\production\\\\Ejemplos creación de procesos en java-20220915\");\r\n        ProcessBuilder pb = new ProcessBuilder(\"java\", \"EjemploLectura\");\r\n\r\n        pb.directory(directorio);\r\n\r\n        // se ejecuta el proceso\r\n        Process p = pb.start();\r\n\r\n        // escritura -- envia entrada\r\n        OutputStream os = p.getOutputStream();\r\n        os.write(\"Hola Manuel\\n\".getBytes());\r\n        os.flush(); // vac�a el buffer de salida\r\n\r\n        // lectura -- obtiene la salida\r\n        InputStream is = p.getInputStream();\r\n        int c;\r\n        while ((c = is.read()) != -1)\r\n            System.out.print((char) c);\r\n        is.close();\r\n\r\n        // COMPROBACION DE ERROR - 0 bien - 1 mal\r\n        int exitVal;\r\n        try {\r\n            exitVal = p.waitFor();\r\n            System.out.println(\"Valor de Salida: \" + exitVal);\r\n        } catch (InterruptedException e) {\r\n            e.printStackTrace();\r\n        }\r\n\r\n        try {\r\n            InputStream er = p.getErrorStream();\r\n            BufferedReader brer = new BufferedReader(new InputStreamReader(er));\r\n            String liner = null;\r\n            while ((liner = brer.readLine()) != null)\r\n                System.out.println(\"ERROR >\" + liner);\r\n        } catch (IOException ioe) {\r\n            ioe.printStackTrace();\r\n        }\r\n    }\r\n\r\n}// Ejemplo5
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ejemplos/Ejemplo5.java b/src/Ejemplos/Ejemplo5.java
+--- a/src/Ejemplos/Ejemplo5.java	(revision ded88b7bb7ad7942a796a3170bec6045416fc445)
++++ b/src/Ejemplos/Ejemplo5.java	(date 1664462793090)
+@@ -1,3 +1,5 @@
++package Ejemplos;
++
+ import java.io.*;
+ 
+ public class Ejemplo5 {
+@@ -5,7 +7,7 @@
+     public static void main(String[] args) throws IOException {
+ 
+         File directorio = new File(".\\Ejemplos creación de procesos en java-20220915\\out\\production\\Ejemplos creación de procesos en java-20220915");
+-        ProcessBuilder pb = new ProcessBuilder("java", "EjemploLectura");
++        ProcessBuilder pb = new ProcessBuilder("java", "Ejemplos.EjemploLectura");
+ 
+         pb.directory(directorio);
+ 
+@@ -44,4 +46,4 @@
+         }
+     }
+ 
+-}// Ejemplo5
+\ No newline at end of file
++}// Ejemplos.Ejemplo5
+\ No newline at end of file

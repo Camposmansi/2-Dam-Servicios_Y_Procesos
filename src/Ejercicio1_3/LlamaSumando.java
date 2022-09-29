@@ -1,8 +1,6 @@
 package Ejercicio1_3;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 
 public class LlamaSumando {
     public static void main(String[] args) throws IOException {
@@ -11,7 +9,7 @@ public class LlamaSumando {
         int valor;
         File dir = new File(".\\src\\Ejercicio1_3");
 
-        ProcessBuilder pb = new ProcessBuilder("java", "Sumando.java", "5", "4");
+        ProcessBuilder pb = new ProcessBuilder("java", "Sumando.java", "5", "6");
         pb.directory(dir);
         System.out.printf("Directorio de trabajo: %s%n", pb.directory());
         Process p = pb.start();
