@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92161575-ab4b-4057-a534-cf540b7245a4" name="Changes" comment="Ejercicios">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Servicios Y Procesos/PSP_Hilos/ACTUT21/Act1Hilos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Servicios Y Procesos/PSP_Hilos/ACTUT21/Act1Hilos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Servicios Y Procesos/PSP_Hilos/ACTUT21/Principal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Servicios Y Procesos/PSP_Hilos/ACTUT21/Principal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Act1Hilos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Act1Hilos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Principal.java" afterDir="false" />
-    </list>
+    <list default="true" id="92161575-ab4b-4057-a534-cf540b7245a4" name="Changes" comment="Ejercicios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +194,7 @@
       <updated>1663856968660</updated>
       <workItem from="1668448301161" duration="1770000" />
       <workItem from="1668534298373" duration="25000" />
-      <workItem from="1668682025786" duration="2232000" />
+      <workItem from="1668682025786" duration="2247000" />
     </task>
     <task id="LOCAL-00001" summary="Ejemplo1">
       <created>1664462496411</created>
@@ -286,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668683535104</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ejercicios">
+      <created>1668684283449</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668684283449</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
