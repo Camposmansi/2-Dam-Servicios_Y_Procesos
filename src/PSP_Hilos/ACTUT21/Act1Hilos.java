@@ -7,7 +7,7 @@ public class Act1Hilos extends Thread {
     boolean stop = false;
 
     /**
-     * CONTRUCTOR
+     * * CONTRUCTOR
      * * Se le pasarán 2 variables que indiquen el nombre y un nuevo valor para “max”
      **/
     public Act1Hilos(String nombre, int max) {
@@ -16,22 +16,22 @@ public class Act1Hilos extends Thread {
     }
 
     /**
-     * METODOS
-     * * getContador: retornará el valor del atributo contador
+     ** METODOS
+     ** getContador: retornará el valor del atributo contador
      **/
     public int getContador() {
         return contador;
     }
 
     /**
-     * resetCont: iniciará el contador a 0
+     ** resetCont: iniciará el contador a 0
      **/
     public void resetCont() {
         this.contador = 0;
     }
 
     /**
-     * getMax: retornará el valor del atributo max
+     ** getMax: retornará el valor del atributo max
      **/
     public int getMax() {
         return max;
@@ -42,10 +42,10 @@ public class Act1Hilos extends Thread {
     }
 
     /**
-     * run: mientras que no se le indique que pare, y mientras que el contador sea inferior a Max
-     * *      imprimirá en la salida estándar su nombre y el valor de su contador.
-     * *      Después incrementará el contador.
-     * *      El hilo debe mostrar por la salida estándar cuando finalice.
+     ** run: mientras que no se le indique que pare, y mientras que el contador sea inferior a Max
+     **      imprimirá en la salida estándar su nombre y el valor de su contador.
+     **      Después incrementará el contador.
+     **      El hilo debe mostrar por la salida estándar cuando finalice.
      **/
     public void run() {
 

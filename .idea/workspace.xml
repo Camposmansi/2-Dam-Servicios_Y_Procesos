@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92161575-ab4b-4057-a534-cf540b7245a4" name="Changes" comment="Ejercicios">
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Act1Hilos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Hilos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/MultiHola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/Raton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/RatonRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/RatonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/RatonThread_Estados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/holaMundoHilosRunable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PSP_Hilos/holaMundo_hilos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_09_2022_17_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_09_2022_17_30/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Servicios Y Procesos/Ejemplos/Ejemplo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Servicios Y Procesos/Ejemplos/Ejemplo8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Servicios Y Procesos/Ejercicio1_3/LlamaSumando.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Servicios Y Procesos/Ejercicio1_3/LlamaSumando.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Servicios Y Procesos/Ejercicio1_4/Sumando_estándar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/salida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/salida.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/Ejemplo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/Ejemplo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/Ejemplo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/Ejemplo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/Ejemplo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/Ejemplo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/Ejemplo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/Ejemplo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/Ejemplo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/Ejemplo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/Ejemplo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/Ejemplo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/Ejemplo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/Ejemplo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/Ejemplo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/Ejemplo9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejemplos/EjemploLectura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejemplos/EjemploLectura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio1_3/LlamaSumando.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1_3/LlamaSumando.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio1_4/LlamaSumando_Estandar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1_4/LlamaSumando_Estandar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio1_4/Sumando_Estandar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1_4/Sumando_Estandar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio1_5/Ejemplo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1_5/Ejemplo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio1_5/Ejemplo5b.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1_5/Ejemplo5b.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio1_5/salida.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1_5/salida.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Act1Hilos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Act1Hilos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PSP_Hilos/ACTUT21/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +197,7 @@
       <updated>1663856968660</updated>
       <workItem from="1668448301161" duration="1770000" />
       <workItem from="1668534298373" duration="25000" />
-      <workItem from="1668682025786" duration="1024000" />
+      <workItem from="1668682025786" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="Ejemplo1">
       <created>1664462496411</created>
@@ -300,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665421831428</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ejercicios">
+      <created>1668683356188</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668683356188</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
