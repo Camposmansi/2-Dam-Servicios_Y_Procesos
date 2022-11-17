@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -29,4 +31,4 @@ public class Ejemplo2 {
 			e.printStackTrace();
 		}
 	}
-}// Ejemplo2
+}// Ejemplos.Ejemplo2

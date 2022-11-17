@@ -1,6 +1,8 @@
 package Ejercicio1_3;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class LlamaSumando {
     public static void main(String[] args) throws IOException {

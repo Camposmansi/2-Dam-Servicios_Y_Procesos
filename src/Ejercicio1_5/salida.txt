@@ -1,0 +1,4 @@
+Directorio de trabajo: .\src\Ejemplos
+Introduce una cadena....
+Cadena escrita: Hola caracola
+Valor de Salida: 0

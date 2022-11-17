@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import java.io.IOException;
 
 public class Ejemplo1 {
@@ -6,5 +8,5 @@ public class Ejemplo1 {
         Process p = pb.start();
 
     }
-}//Ejemplo1
+}//Ejemplos.Ejemplo1
 

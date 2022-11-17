@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import java.io.*;
 
 public class Ejemplo3 {
@@ -6,11 +8,11 @@ public class Ejemplo3 {
         File miDir = new File(".");
         System.out.println("Directorio actual: " + miDir.getCanonicalPath());
 
-        //creamos objeto File al directorio donde esta Ejemplo2
+        //creamos objeto File al directorio donde esta Ejemplos.Ejemplo2
         File directorio = new File(".\\bin");
 
-        //El proceso a ejecutar es Ejemplo2
-        ProcessBuilder pb = new ProcessBuilder("java", "test2b.Ejemplo2");
+        //El proceso a ejecutar es Ejemplos.Ejemplo2
+        ProcessBuilder pb = new ProcessBuilder("java", "test2b.Ejemplos.Ejemplo2");
 
         //se establece el directorio donde se encuentra el ejecutable
         pb.directory(directorio);
@@ -41,4 +43,4 @@ public class Ejemplo3 {
         }
 
     }
-}// Ejemplo3
+}// Ejemplos.Ejemplo3

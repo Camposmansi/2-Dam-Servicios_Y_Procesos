@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -28,4 +30,4 @@ public class Ejemplo4 {
         }
     }
 
-}//Ejemplo4
+}//Ejemplos.Ejemplo4

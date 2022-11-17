@@ -1,3 +1,5 @@
+package Ejemplos;
+
 import java.io.*;
 
 public class Ejemplo5 {
@@ -5,7 +7,7 @@ public class Ejemplo5 {
     public static void main(String[] args) throws IOException {
 
         File directorio = new File(".\\Ejemplos creación de procesos en java-20220915\\out\\production\\Ejemplos creación de procesos en java-20220915");
-        ProcessBuilder pb = new ProcessBuilder("java", "EjemploLectura");
+        ProcessBuilder pb = new ProcessBuilder("java", "Ejemplos.EjemploLectura");
 
         pb.directory(directorio);
 
@@ -44,4 +46,4 @@ public class Ejemplo5 {
         }
     }
 
-}// Ejemplo5
+}// Ejemplos.Ejemplo5

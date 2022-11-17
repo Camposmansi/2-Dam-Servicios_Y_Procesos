@@ -1,12 +1,14 @@
+package Ejemplos;
+
 import java.io.IOException;
 
 public class Ejemplo9 {
-	public static void main(String[] args) throws IOException {
-		ProcessBuilder pb = new ProcessBuilder("CMD", "/C", "DIR");
+    public static void main(String[] args) throws IOException {
+        ProcessBuilder pb = new ProcessBuilder("CMD", "/C", "DIR");
 
-		//la salida a consola
-		pb.redirectOutput(ProcessBuilder.Redirect.INHERIT);
-		Process p = pb.start();
+        //la salida a consola
+        pb.redirectOutput(ProcessBuilder.Redirect.INHERIT);
+        Process p = pb.start();
 
-	}
-}// Ejemplo9
+    }
+}// Ejemplos.Ejemplo9

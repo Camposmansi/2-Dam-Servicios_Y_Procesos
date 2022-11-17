@@ -9,8 +9,8 @@ public class Ejemplo5 {
      */
     public static void main(String[] args) throws IOException {
 
-        File directorio = new File(".\\src\\Ejercicio1_5");
-        ProcessBuilder pb = new ProcessBuilder("java", "EjemploLectura");
+        File directorio = new File(".\\src\\Ejemplos");
+        ProcessBuilder pb = new ProcessBuilder("java", "EjemploLectura.java");
 
         pb.directory(directorio);
         System.out.printf("Directorio de trabajo: %s%n", pb.directory());
@@ -45,6 +45,7 @@ public class Ejemplo5 {
             String liner = null;
             while ((liner = brer.readLine()) != null) {
                 System.out.println("ERROR >" + liner);
+
             }
         } catch (IOException ioe) {
             ioe.printStackTrace();
