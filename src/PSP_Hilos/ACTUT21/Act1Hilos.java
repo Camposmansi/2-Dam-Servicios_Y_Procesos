@@ -49,7 +49,7 @@ public class Act1Hilos extends Thread {
      **/
     public void run() {
 
-        while (getContador() < getMax() && !stop) {
+        while (!stop && getContador() < getMax()) {
 
             try {
                 System.out.println("Nombre " + this.nombre + " Contador " + this.contador);
