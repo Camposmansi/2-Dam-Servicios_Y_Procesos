@@ -1,3 +1,5 @@
+package PSP_Hilos;
+
 public class Raton {
 
     private final String nombre;

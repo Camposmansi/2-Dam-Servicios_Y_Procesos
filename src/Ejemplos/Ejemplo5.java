@@ -6,8 +6,8 @@ public class Ejemplo5 {
 
     public static void main(String[] args) throws IOException {
 
-        File directorio = new File(".\\Ejemplos creación de procesos en java-20220915\\out\\production\\Ejemplos creación de procesos en java-20220915");
-        ProcessBuilder pb = new ProcessBuilder("java", "Ejemplos.EjemploLectura");
+        File directorio = new File(".\\src\\Ejemplos");
+        ProcessBuilder pb = new ProcessBuilder("java", "EjemploLectura.java");
 
         pb.directory(directorio);
 
@@ -17,7 +17,7 @@ public class Ejemplo5 {
         // escritura -- envia entrada
         OutputStream os = p.getOutputStream();
         os.write("Hola Manuel\n".getBytes());
-        os.flush(); // vac�a el buffer de salida
+        os.flush(); // vacia el buffer de salida
 
         // lectura -- obtiene la salida
         InputStream is = p.getInputStream();

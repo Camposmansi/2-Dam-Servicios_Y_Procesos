@@ -1,6 +1,12 @@
 package PSP_Hilos.ACTUT21;
 
 public class Act1Hilos extends Thread {
+    /**
+     * * ATRIBUTOS
+     * * i)	    contador: un entero con valor inicial 0.
+     * * ii)     max: un entero con valor inicial 100.
+     * * iii)	stop: un boolean con valor inicial false.
+     **/
     private final String nombre;
     int contador = 0;
     int max = 100;

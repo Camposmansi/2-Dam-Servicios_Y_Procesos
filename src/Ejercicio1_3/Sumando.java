@@ -12,7 +12,7 @@ public class Sumando {
                 int a = parseInt(args[0]);
                 int b = parseInt(args[1]);
                 int suma = a + b;
-                System.out.println("La suma de los numeros  " + a + " y " + b + " es " + suma);
+                System.out.println("La suma de los numeros  " + a + " + " + b + " es " + suma);
                 System.exit(1);
             } catch (IllegalArgumentException n) {
                 System.err.println("PARAMETROS INCORRECTOS");

@@ -5,13 +5,13 @@ import java.io.*;
 public class LlamaSumando_Estandar {
 
     public static void main(String[] args) throws IOException {
-        File directorio = new File("C:\\Users\\Cristián Atienza Mas\\eclipse-workspace\\Servicios\\src\\Tema1_Ejercicios");
+        File directorio = new File(".\\src\\Ejercicio1_4");
         ProcessBuilder pb = new ProcessBuilder("java", "Sumando_Estandar.java");
 
         pb.redirectInput(ProcessBuilder.Redirect.INHERIT);
         pb.redirectOutput(ProcessBuilder.Redirect.INHERIT); // Con el INHERIT se ejecuta el pb ya que el sumando_Estandar es un
         //un programa de meter parametros por teclado (INHERIT lo que hace es como si estas ejecutando el padre tanto lo de entrada como el de salida)
-        pb.redirectOutput(ProcessBuilder.Redirect.INHERIT);
+        //pb.redirectOutput(ProcessBuilder.Redirect.INHERIT);
 
         pb.directory(directorio);
 

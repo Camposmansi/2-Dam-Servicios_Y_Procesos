@@ -1,3 +1,5 @@
+package PSP_Hilos;
+
 public class RatonThread extends Thread {
 
     private final String nombre;
@@ -13,7 +15,7 @@ public class RatonThread extends Thread {
         Thread federico = new RatonThread("federico", 2);
         Thread carlos = new RatonThread("carlos", 6);
         mario.start();
-        mario.start();
+        //mario.start();
         federico.start();
         carlos.start();
     }
