@@ -97,5 +97,4 @@ public class Chat1 extends JFrame implements Observer {
     public void update(Observable o, Object arg) {
         this.txtTexto.append((String) arg);
     }
-
 }

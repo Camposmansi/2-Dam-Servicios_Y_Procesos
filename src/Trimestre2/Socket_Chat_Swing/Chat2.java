@@ -1,14 +1,14 @@
 package Trimestre2.Socket_Chat_Swing;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Observable;
 import java.util.Observer;
 
-public class Chat2 extends JFrame implements Observer {
+import static javax.swing.SwingUtilities.invokeLater;
 
+public class Chat2 extends JFrame implements Observer {
     private JButton btnEnviar;
     private JScrollPane jScrollPane1;
     private JTextArea txtTexto;
@@ -25,7 +25,7 @@ public class Chat2 extends JFrame implements Observer {
     }
 
     public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
+        invokeLater(new Runnable() {
             public void run() {
                 new Chat2().setVisible(true);
             }
@@ -92,13 +92,10 @@ public class Chat2 extends JFrame implements Observer {
         Cliente c = new Cliente(5000, mensaje);
         Thread t = new Thread(c);
         t.start();
-
     }
 
     @Override
     public void update(Observable o, Object arg) {
-
         this.txtTexto.append((String) arg);
     }
-
 }

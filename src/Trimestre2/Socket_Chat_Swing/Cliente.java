@@ -7,10 +7,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Cliente implements Runnable {
-
     private final int puerto;
     private final String mensaje;
-
     public Cliente(int puerto, String mensaje) {
         this.puerto = puerto;
         this.mensaje = mensaje;

@@ -9,13 +9,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Servidor extends Observable implements Runnable {
-
     private final int puerto;
-
     public Servidor(int puerto) {
         this.puerto = puerto;
     }
-
     @Override
     public void run() {
 
@@ -49,9 +46,7 @@ public class Servidor extends Observable implements Runnable {
                 //Cierro el socket
                 sc.close();
                 System.out.println("Cliente desconectado");
-
             }
-
         } catch (IOException ex) {
             Logger.getLogger(Servidor.class.getName()).log(Level.SEVERE, null, ex);
         }
