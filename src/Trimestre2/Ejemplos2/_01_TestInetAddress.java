@@ -8,7 +8,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-public class TestInetAddress {
+public class _01_TestInetAddress {
 
     public static void main(String[] args) {
         InetAddress dir = null;
@@ -28,6 +28,7 @@ public class TestInetAddress {
             //PRIMERA PRUEBA CON LOCALHOST
             dir = InetAddress.getByName(url);
             pruebaMetodos(dir);//
+
 /*
             //SEGUNDA PRUEBA CON www.youtube.es
             System.out.println("========================================================");
@@ -47,26 +48,24 @@ public class TestInetAddress {
         } catch (UnknownHostException e1) {
             e1.printStackTrace();
         }
-
     }
 
-
     private static void pruebaMetodos(InetAddress dir) {
-
         InetAddress dir2;
-
         try {
             dir2 = InetAddress.getLocalHost();
             System.out.println("\tMetodo getLocalHost(): " + dir2);
-        } catch (UnknownHostException e) {
-        }
 
-        // Probamos los métodos de la clase InetAddress
-        System.out.println("\tMetodo getByName():  " + dir);
-        System.out.println("\tMetodo getHostName(): " + dir.getHostName());
-        System.out.println("\tMetodo getHostAddress(): " + dir.getHostAddress());
-        System.out.println("\tMetodo toString(): " + dir);
-        System.out.println("\tMetodo getCanonicalHostName(): " + dir.getCanonicalHostName());
+            // Probamos los métodos de la clase InetAddress
+            System.out.println("\tMetodo getByName():  " + dir);
+            System.out.println("\tMetodo getHostName(): " + dir.getHostName());
+            System.out.println("\tMetodo getHostAddress(): " + dir.getHostAddress());
+            System.out.println("\tMetodo toString(): " + dir);
+            System.out.println("\tMetodo getCanonicalHostName(): " + dir.getCanonicalHostName());
+
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
     }
 
 }//fin

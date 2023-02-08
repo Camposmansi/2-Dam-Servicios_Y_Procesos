@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="92161575-ab4b-4057-a534-cf540b7245a4" name="Changes" comment="Ejercicios">
-      <change afterPath="$PROJECT_DIR$/src/Ejemplos2/TestInetAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/ChatMultiHilo/ClienteChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/ChatMultiHilo/ClienteChat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/ChatMultiHilo/ComunHilos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/ChatMultiHilo/HiloServidorChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/ChatMultiHilo/ServidorChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Ejemplos2/_02_ClienteTCPBasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Ejemplos2/_02_ServidorTCPBasico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Ejemplos2/_03_SocketClienteTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Ejemplos2/_03_SocketServidorTCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Ejercicio01_CC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Ejercicio02/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Ejercicio02/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/EjercicioMultiHilo/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/EjercicioMultiHilo/Cliente_Multihilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/EjercicioMultiHilo/Servidor_Multihilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/SocketClienteTCP_texto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/SocketServidorTCP_texto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/SocketUDPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trimestre2/SocketUDPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trimestre2/Ejemplos2/TestInetAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trimestre2/Ejemplos2/_01_TestInetAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trimestre2/InetAddress.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +91,15 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/IdeaProjects/Servicios Y Procesos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.16015625&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
@@ -89,23 +118,24 @@
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\out" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Trimestre2\EjercicioMultiHilo" />
+      <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Trimestre2" />
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Ejemplos2" />
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src" />
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Ejemplos\Pruebas\Prueba3" />
-      <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Ejemplos\Pruebas\Prueba2" />
-      <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Ejemplos\Pruebas\Prueba4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Trimestre2.ChatMultiHilo" />
       <recent name="Ejercicio1_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestInetAddress">
-    <configuration name="LlamaSumando" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio1_3.LlamaSumando" />
+  <component name="RunManager" selected="Application.ClienteChat">
+    <configuration name="ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.ChatMultiHilo.ClienteChat" />
       <module name="Servicios Y Procesos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ejercicio1_3.*" />
+          <option name="PATTERN" value="Trimestre2.ChatMultiHilo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiHola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PSP_Hilos.MultiHola" />
+    <configuration name="ClienteChat2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.ChatMultiHilo.ClienteChat2" />
       <module name="Servicios Y Procesos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PSP_Hilos.*" />
+          <option name="PATTERN" value="Trimestre2.ChatMultiHilo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +156,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Raton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PSP_Hilos.Raton" />
+    <configuration name="Cliente_Multihilo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.EjercicioMultiHilo.Cliente_Multihilo" />
       <module name="Servicios Y Procesos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PSP_Hilos.*" />
+          <option name="PATTERN" value="Trimestre2.EjercicioMultiHilo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServidorChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.ChatMultiHilo.ServidorChat" />
+      <module name="Servicios Y Procesos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trimestre2.ChatMultiHilo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Servidor_Multihilo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.EjercicioMultiHilo.Servidor_Multihilo" />
+      <module name="Servicios Y Procesos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trimestre2.EjercicioMultiHilo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,41 +203,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInetAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejemplos2.TestInetAddress" />
-      <module name="Servicios Y Procesos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ejemplos2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="linkedlist_NoSeguro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist_NoSeguro" />
-      <module name="Servicios Y Procesos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Sumando" />
-      <item itemvalue="Application.TestInetAddress" />
-      <item itemvalue="Application.linkedlist_NoSeguro" />
-      <item itemvalue="Application.LlamaSumando" />
-      <item itemvalue="Application.MultiHola" />
-      <item itemvalue="Application.Raton" />
+      <item itemvalue="Application.ClienteChat" />
+      <item itemvalue="Application.ClienteChat2" />
+      <item itemvalue="Application.Cliente_Multihilo" />
+      <item itemvalue="Application.ServidorChat" />
+      <item itemvalue="Application.Servidor_Multihilo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestInetAddress" />
-        <item itemvalue="Application.linkedlist_NoSeguro" />
-        <item itemvalue="Application.LlamaSumando" />
-        <item itemvalue="Application.Raton" />
-        <item itemvalue="Application.MultiHola" />
+        <item itemvalue="Application.ClienteChat" />
+        <item itemvalue="Application.ServidorChat" />
+        <item itemvalue="Application.ClienteChat2" />
+        <item itemvalue="Application.Cliente_Multihilo" />
+        <item itemvalue="Application.Servidor_Multihilo" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +256,19 @@
       <workItem from="1673376140947" duration="2534000" />
       <workItem from="1673444752856" duration="173000" />
       <workItem from="1673615294046" duration="27000" />
+      <workItem from="1673655795400" duration="2999000" />
+      <workItem from="1673707249826" duration="7608000" />
+      <workItem from="1673735280720" duration="680000" />
+      <workItem from="1673900749906" duration="374000" />
+      <workItem from="1673977983820" duration="6556000" />
+      <workItem from="1674084129719" duration="50000" />
+      <workItem from="1674520723708" duration="3623000" />
+      <workItem from="1674776901015" duration="3930000" />
+      <workItem from="1675014895669" duration="676000" />
+      <workItem from="1675100863472" duration="1874000" />
+      <workItem from="1675119479524" duration="27000" />
+      <workItem from="1675191610521" duration="611000" />
+      <workItem from="1675378021986" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="Ejemplo1">
       <created>1664462496411</created>
@@ -326,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669583846427</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Ejercicios">
+      <created>1673655905903</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673655905903</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
