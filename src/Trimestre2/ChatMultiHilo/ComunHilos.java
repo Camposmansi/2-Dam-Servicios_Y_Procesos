@@ -18,12 +18,13 @@ public class ComunHilos {
     }
 
     public synchronized int conectar(Socket cliente) {
-        int id = -1;
+        int id = cliente.hashCode();
         if (ACTUALES < MAXIMO) {
             id = CONEXIONES;
             tabla[CONEXIONES] = cliente;
             CONEXIONES++;
             ACTUALES++;
+            System.out.println("Bienvenido al Servidor");
         }
         return id;
     }
@@ -38,6 +39,7 @@ public class ComunHilos {
 
     public synchronized void enviarMensajes(int id, String mensaje) {
         mensajes = mensajes + "Cliente " + id + " dice: " + mensaje + "\n";
+
     }
 
     public synchronized String getMensajes() {

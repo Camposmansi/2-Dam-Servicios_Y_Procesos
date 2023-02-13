@@ -12,7 +12,6 @@ public class SocketUDPClient {
             InetAddress hostServidor = InetAddress.getByName("localhost");
             int puertoServidor = 1026;
 
-
             System.out.println("(CLIENTE) Creando el socket...");
             DatagramSocket socket = new DatagramSocket();
 

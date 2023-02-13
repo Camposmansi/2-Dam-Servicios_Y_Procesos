@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92161575-ab4b-4057-a534-cf540b7245a4" name="Changes" comment="Ejercicios">
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Chat2/ClienteChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Chat2/ComunHilos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Chat2/HiloServidorChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/Chat2/ServidorChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/ChatMultiHilo.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/MultiHiloArchivos.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/URLConexion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/URLDescarga1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/URLDescarga2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/URLv1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/URLv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/URLv3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/URLv4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/firefox.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trimestre2/URL/tv06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UIGoogle.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UIGoogle/GoogleSearchUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UIGoogle/GoogleSearchUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trimestre2/ChatMultiHilo/ComunHilos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trimestre2/ChatMultiHilo/ComunHilos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trimestre2/MultiHiloArchivos.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trimestre2/SocketUDPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trimestre2/SocketUDPClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,45 +59,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/IdeaProjects/Servicios Y Procesos/src/Trimestre2/Chat2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.16015625&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Usuario/IdeaProjects/Servicios Y Procesos/src/chathilos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.16015625",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\chathilos" />
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Trimestre2\Chat2" />
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Trimestre2\MultiHiloArchivos" />
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\.idea\shelf\Uncommitted_changes_before_Update_at_29_09_2022_17_30" />
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\.idea\shelf\Changes" />
-      <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\.idea\shelf" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\IdeaProjects\Servicios Y Procesos\src\Trimestre2\GestorProceso" />
@@ -126,7 +112,33 @@
       <recent name="Ejercicio1_4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URLv4">
+  <component name="RunManager" selected="Application._02_ClienteTCPBasico">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.MultiHiloArchivos.Cliente" />
+      <module name="Servicios Y Procesos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trimestre2.MultiHiloArchivos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Servidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.MultiHiloArchivos.Servidor" />
+      <module name="Servicios Y Procesos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trimestre2.MultiHiloArchivos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sumando" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Ejercicio1_3.Sumando" />
       <module name="Servicios Y Procesos" />
@@ -135,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLConexion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trimestre2.URL.URLConexion" />
+    <configuration name="Trimestre2.ChatMultiHilo.ClienteChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.ChatMultiHilo.ClienteChat" />
       <module name="Servicios Y Procesos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trimestre2.URL.*" />
+          <option name="PATTERN" value="Trimestre2.ChatMultiHilo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLv1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trimestre2.URL.URLv1" />
+    <configuration name="_02_ClienteTCPBasico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.Ejemplos2._02_ClienteTCPBasico" />
       <module name="Servicios Y Procesos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trimestre2.URL.*" />
+          <option name="PATTERN" value="Trimestre2.Ejemplos2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,38 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trimestre2.URL.URLv2" />
+    <configuration name="_02_ServidorTCPBasico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trimestre2.Ejemplos2._02_ServidorTCPBasico" />
       <module name="Servicios Y Procesos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trimestre2.URL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URLv3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trimestre2.URL.URLv3" />
-      <module name="Servicios Y Procesos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trimestre2.URL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="URLv4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trimestre2.URL.URLv4" />
-      <module name="Servicios Y Procesos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trimestre2.URL.*" />
+          <option name="PATTERN" value="Trimestre2.Ejemplos2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +188,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Sumando" />
-      <item itemvalue="Application.URLv1" />
-      <item itemvalue="Application.URLv2" />
-      <item itemvalue="Application.URLv3" />
-      <item itemvalue="Application.URLv4" />
-      <item itemvalue="Application.URLConexion" />
+      <item itemvalue="Application.Cliente" />
+      <item itemvalue="Application.Servidor" />
+      <item itemvalue="Application.Trimestre2.ChatMultiHilo.ClienteChat" />
+      <item itemvalue="Application._02_ClienteTCPBasico" />
+      <item itemvalue="Application._02_ServidorTCPBasico" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URLv4" />
-        <item itemvalue="Application.URLv3" />
-        <item itemvalue="Application.URLv2" />
-        <item itemvalue="Application.URLv1" />
-        <item itemvalue="Application.URLConexion" />
+        <item itemvalue="Application._02_ClienteTCPBasico" />
+        <item itemvalue="Application._02_ServidorTCPBasico" />
+        <item itemvalue="Application.Cliente" />
+        <item itemvalue="Application.Servidor" />
+        <item itemvalue="Application.Trimestre2.ChatMultiHilo.ClienteChat" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +259,7 @@
       <workItem from="1676209558911" duration="3154000" />
       <workItem from="1676225571260" duration="60000" />
       <workItem from="1676225650260" duration="5309000" />
-      <workItem from="1676239153438" duration="2457000" />
+      <workItem from="1676239153438" duration="6471000" />
     </task>
     <task id="LOCAL-00001" summary="Ejemplo1">
       <created>1664462496411</created>
@@ -394,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676046084221</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ejercicios">
+      <created>1676242201781</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676242201781</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
